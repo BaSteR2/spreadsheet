@@ -9,7 +9,6 @@
 - GCC 11.4.0 
 - ANTLR
 - JDK
-- 
 # ANTLR:
 Инструкцию по установке ```ANTLR``` можно найти на сайте ```antlr.org```
 
@@ -26,7 +25,7 @@ mkdir build && cd build
 ```
 Сборка проекта:
 ```
-cmake .. && cmake --build .
+cmake .. -DCMAKE_BUILD_TYPE=Debug && cmake --build .
 ```
 Запуск исполняемого файла: 
 ```
