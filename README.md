@@ -19,7 +19,7 @@
 curl -O https://www.antlr.org/download/antlr-4.13.1-complete.jar
 ```
 # Установка:
-Создание папки ```build``` и переход в нее:
+В директории проекта создать папку ```build``` и перейти в нее:
 ```
 mkdir build && cd build
 ```
